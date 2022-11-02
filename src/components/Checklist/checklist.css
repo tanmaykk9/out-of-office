@@ -1,0 +1,13 @@
+.checklist > h2 {
+  position: relative;
+}
+
+.tick-mark {
+  width: 24px;
+  height: 24px;
+}
+
+.checklist-wrapper {
+  display: flex;
+  justify-content: center;
+}

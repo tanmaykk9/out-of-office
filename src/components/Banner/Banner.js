@@ -18,7 +18,7 @@ const Banner = () => {
           >
             <div className="et_pb_text_inner snipcss0-4-4-5">
               <h5 className="snipcss0-5-5-6">A Home Away From Home</h5>
-              <h1 className="snipcss0-5-5-7">Bed &amp; Breakfast</h1>
+              <h1 className="snipcss0-5-5-7">Out of Office</h1>
             </div>
           </div>
         </div>

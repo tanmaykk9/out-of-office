@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rules {
+  max-height: 15vh;
+  max-width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  margin: auto;
+}
+
+.image-zoom:hover {
+  transform: scale(1.5);
+  transition: transform 0.2s;
+  transform-origin: top center;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .rules-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  .rules-container > div {
+    margin: 10px 0;
+  }
+}
