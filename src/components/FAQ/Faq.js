@@ -9,7 +9,7 @@ const Faq = () => {
       <div className="grid grid-cols-2 gap-4">
         {FaqJson.map((obj, k) => (
           <div key={k}>
-            <Accordion title={obj.label} content={obj.value} />
+            <Accordion title={obj.label} content={obj.value} img={obj.img} otherImg={obj.otherImg}/>
           </div>
         ))}
       </div>
